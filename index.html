@@ -1,20 +1,86 @@
-<html>
-    <h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam's Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            font-size: 2em;
+        }
+        main {
+            padding: 2em;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .wigle {
+            display: block;
+            margin: 1em 0;
+            text-align: center;
+        }
+        .wigle img {
+            border: none;
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
         Hey, I'm Adam
-    </h1>
-    <body>
+    </header>
+    <main>
         <h2>About me</h2>
         <p>
-            I am a salesman that has always had a passion for anything IT related and also wardrive
+            I am a salesman with a passion for IT and wardriving.
         </p>
         <h2>Activities</h2>
         <p>
-            I have been active in 2600 meeting back in the day @LA2600. Recently found @OC2600 at http://23bshop.org and IVU.
-            I am actively working on pivoting to IT/Cybersecurity. A+ and beyond. Tryhackme.com 
+            I was active in 2600 meetings back in the day @LA2600. Recently, I found @OC2600 at <a href="http://23bshop.org" target="_blank">23bshop.org</a> and IVU.
+            I am actively working on pivoting to IT/Cybersecurity. A+ and beyond. Check out <a href="https://tryhackme.com" target="_blank">Tryhackme.com</a>.
         </p>
         <h2>Wigle.net ID</h2>
-        <a href="https://wigle.net">
-            <img border="0" src="https://wigle.net/bi/cCSRsgwG3jqEvKUAPM+nwA.png">
-            </a>
-    </body>
+        <a class="wigle" href="https://wigle.net" target="_blank">
+            <img src="https://wigle.net/bi/cCSRsgwG3jqEvKUAPM+nwA.png" alt="Wigle.net Badge">
+        </a>
+    </main>
+    <div class="footer">
+        &copy; 2024 Adam's Personal Page
+    </div>
+    <script>
+        // Add JavaScript to create interactivity if needed
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Document loaded and parsed');
+        });
+    </script>
+</body>
 </html>
